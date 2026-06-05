@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naveen | MCA Graduate & Python Developer</title>
+    <meta name="description"
+        content="Portfolio of a passionate MCA Graduate & Python Developer specializing in Django, SQL, and modern web technologies.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="dark-theme">
+    <!-- Particle Background -->
+    <div id="particles-js" class="background-container"></div>
+
+    <!-- Cursor -->
+    <div class="custom-cursor"></div>
+    <div class="cursor-glow"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar glass">
+        <div class="container navbar-content">
+            <div class="logo">
+                <span class="logo-text">NAVEEN<span class="dot">.</span>PHILIP<span class="dot">.</span>SHINU</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#projects" class="nav-btn">View Work</a></li>
+                <li><a href="#" class="nav-btn">Resume <i data-lucide="download"></i></a></li>
+                <li><a href="#contact" class="nav-btn">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Theme">
+                    <i data-lucide="moon"></i>
+                </button>
+                <div class="nav-toggle" id="nav-toggle">
+                    <i data-lucide="menu"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Nav -->
+    <div class="mobile-nav glass" id="mobile-nav">
+        <ul class="mobile-links">
+            <li><a href="#projects" class="mobile-link nav-btn">View Work</a></li>
+            <li><a href="#" class="mobile-link nav-btn">Resume</a></li>
+            <li><a href="#contact" class="mobile-link nav-btn">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content" data-aos="fade-up">
+                    <div class="badge glass">Available for Opportunities</div>
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="gradient-text">Naveen</span>
+                    </h1>
+                    <div class="typing-container">
+                        <span class="typed-text"></span><span class="cursor">&nbsp;</span>
+                    </div>
+                    <p class="hero-description">
+                        Passionate MCA Graduate and Python Developer. I build scalable, efficient applications and I am
+                        always ready to adapt to new challenges.
+                    </p>
+                    <div class="hero-btns">
+                        <a href="#contact" class="btn btn-primary">Let's Talk <i data-lucide="send"></i></a>
+                    </div>
+                    <div class="hero-badges-container">
+                        <span class="float-badge glass"><i data-lucide="code"></i> Python</span>
+                        <span class="float-badge glass"><i data-lucide="database"></i> SQL</span>
+                        <span class="float-badge glass"><i data-lucide="server"></i> Django</span>
+                        <span class="float-badge glass"><i data-lucide="cpu"></i> AI&ML</span>
+                        <span class="float-badge glass"><i data-lucide="code"></i> PHP</span>
+                        <span class="float-badge glass"><i data-lucide="briefcase"></i> Project Coordinator</span>
+                        <span class="float-badge glass"><i data-lucide="users"></i> Project Manager</span>
+                    </div>
+                </div>
+                <div class="hero-visual" data-aos="zoom-in">
+                    <div class="profile-card glass">
+                        <div class="profile-circle">
+                            <!-- Placeholder for Image -->
+                            <img src="naveen.jpg" alt="Naveen" class="profile-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section section-padding">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-subtitle">Get To Know Me</span>
+                    <h2 class="section-title">About Me</h2>
+                </div>
+                <div class="about-grid">
+                    <div class="about-text" data-aos="fade-right">
+                        <p class="lead">Passionate Python developer with an MCA background, dedicated to building
+                            high-quality software solutions.</p>
+                        <p>I specialize in creating efficient backend systems using Python and Django, while maintaining
+                            a strong grasp of frontend technologies like HTML, CSS, and JavaScript. My journey in tech
+                            has been driven by a constant thirst for knowledge and a problem-solving mindset.</p>
+                        <p>I am a quick learner and highly adaptable, comfortable working in various environments and
+                            eager to embrace new technologies to solve complex problems.</p>
+                        <div class="about-info-grid">
+                            <div class="info-item">
+                                <span class="info-label">Degree</span>
+                                <span class="info-value">Masters in Computer Applications (MCA)</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Current Role</span>
+                                <span class="info-value">Aspiring Python Developer</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Focus</span>
+                                <span class="info-value">Backend & AI-Integrated Web Apps</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-stats" data-aos="fade-left">
+                        <div class="stat-card glass">
+                            <h3>05+</h3>
+                            <p>Years Learning BCA & MCA</p>
+                        </div>
+                        <div class="stat-card glass">
+                            <h3>03+</h3>
+                            <p>Projects Done</p>
+                        </div>
+                        <div class="stat-card glass">
+                            <h3>03+</h3>
+                            <p>Certifications</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section section-padding">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-subtitle">Expertise</span>
+                    <h2 class="section-title">Technical Skills</h2>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-category" data-aos="fade-up">
+                        <h3 class="skill-cat-title"><i data-lucide="terminal"></i> Languages</h3>
+                        <div class="skills-badge-list">
+                            <span class="skill-badge glass">Python</span>
+                            <span class="skill-badge glass">SQL</span>
+                            <span class="skill-badge glass">PHP</span>
+                        </div>
+                    </div>
+                    <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                        <h3 class="skill-cat-title"><i data-lucide="layers"></i> Frameworks</h3>
+                        <div class="skills-badge-list">
+                            <span class="skill-badge glass">Django</span>
+                            <span class="skill-badge glass">React (Learning)</span>
+                        </div>
+                    </div>
+                    <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                        <h3 class="skill-cat-title"><i data-lucide="globe"></i> Web Dev</h3>
+                        <div class="skills-badge-list">
+                            <span class="skill-badge glass">HTML/CSS</span>
+                            <span class="skill-badge glass">JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                        <h3 class="skill-cat-title"><i data-lucide="settings"></i> Others</h3>
+                        <div class="skills-badge-list">
+                            <span class="skill-badge glass">Git/GitHub</span>
+                            <span class="skill-badge glass">REST API</span>
+                        </div>
+                    </div>
+                    <div class="skill-category" data-aos="fade-up" data-aos-delay="400">
+                        <h3 class="skill-cat-title"><i data-lucide="brain"></i> Machine Learning & AI</h3>
+                        <div class="skills-badge-list">
+                            <span class="skill-badge glass">Machine Learning</span>
+                            <span class="skill-badge glass">Computer Vision</span>
+                            <span class="skill-badge glass">YOLOv8</span>
+                            <span class="skill-badge glass">OpenCV</span>
+                            <span class="skill-badge glass">TensorFlow</span>
+                            <span class="skill-badge glass">Scikit-learn</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section section-padding">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-subtitle">Portfolio</span>
+                    <h2 class="section-title">Latest Projects</h2>
+                </div>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card glass" data-aos="fade-up" data-aos-delay="100">
+                        <div class="project-img-wrapper">
+                            <img src="Smartcity.png" alt="AI Smart Reporting" class="project-img">
+                            <div class="project-overlay">
+                                <a href="#" class="btn-icon"><i data-lucide="github"></i></a>
+                                <a href="#" class="btn-icon"><i data-lucide="external-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-tech">Python | AI | Django</span>
+                            <h3 class="project-name">AI-Driven Smartcity Issue Reporting App</h3>
+                            <p class="project-desc">An intelligent platform for urban issue reporting with automated
+                                classification and priority assessment using AI.</p>
+                        </div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="project-card glass" data-aos="fade-up">
+                        <div class="project-img-wrapper">
+                            <img src="cabletv.png" alt="Cable TV Management" class="project-img">
+                            <div class="project-overlay">
+                                <a href="#" class="btn-icon"><i data-lucide="github"></i></a>
+                                <a href="#" class="btn-icon"><i data-lucide="external-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-tech">Python | Django | SQL</span>
+                            <h3 class="project-name">Cable TV Management System</h3>
+                            <p class="project-desc">A comprehensive system for managing customer subscriptions, billing,
+                                and technical support for cable providers.</p>
+                        </div>
+                    </div>
+                
+                    <!-- Project 3 -->
+                    <div class="project-card glass" data-aos="fade-up" data-aos-delay="200">
+                        <div class="project-img-wrapper">
+                            <img src="canteen.png" alt="Canteen Management" class="project-img">
+                            <div class="project-overlay">
+                                <a href="#" class="btn-icon"><i data-lucide="github"></i></a>
+                                <a href="#" class="btn-icon"><i data-lucide="external-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-tech">Python | Django | SQL</span>
+                            <h3 class="project-name">Canteen Management System</h3>
+                            <p class="project-desc">Efficient platform to manage canteen orders, inventory, billing, and food service operations.</p>
+                        </div>
+                    </div>
+                    <!-- Project 4 >
+                    <div class="project-card glass" data-aos="fade-up">
+                        <div class="project-img-wrapper">
+                            <img src="https://placehold.co/600x400/1e293b/white?text=Portfolio+Design"
+                                alt="Portfolio Website" class="project-img">
+                            <div class="project-overlay">
+                                <a href="#" class="btn-icon"><i data-lucide="github"></i></a>
+                                <a href="#" class="btn-icon"><i data-lucide="external-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-tech">HTML | CSS | JS</span>
+                            <h3 class="project-name">Premium Portfolio Website</h3>
+                            <p class="project-desc">High-end personal brand showcase with glassmorphism, animations, and
+                                responsive design.</p>
+                        </div>
+                    </div>
+                    <!-- Project 5 >
+                    <div class="project-card glass" data-aos="fade-up" data-aos-delay="100">
+                        <div class="project-img-wrapper">
+                            <img src="https://placehold.co/600x400/1e293b/white?text=Weather+App" alt="Weather App"
+                                class="project-img">
+                            <div class="project-overlay">
+                                <a href="#" class="btn-icon"><i data-lucide="github"></i></a>
+                                <a href="#" class="btn-icon"><i data-lucide="external-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-tech">JS | OpenWeather API</span>
+                            <h3 class="project-name">Real-time Weather App</h3>
+                            <p class="project-desc">A clean, interactive weather application fetching data from external
+                                APIs with dynamic backgrounds.</p>
+                        </div>
+                    </div>
+                    <!-- Project 6 >
+                    <div class="project-card glass" data-aos="fade-up" data-aos-delay="200">
+                        <div class="project-img-wrapper">
+                            <img src="https://placehold.co/600x400/1e293b/white?text=SQL+Database" alt="SQL Database"
+                                class="project-img">
+                            <div class="project-overlay">
+                                <a href="#" class="btn-icon"><i data-lucide="github"></i></a>
+                                <a href="#" class="btn-icon"><i data-lucide="external-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-tech">SQL | PostgreSQL</span>
+                            <h3 class="project-name">Database Optimization Project</h3>
+                            <p class="project-desc">Complex schema design and query optimization for high-traffic data
+                                environments.</p>
+                        </div>
+                    </div-->
+                </div>
+            </div>
+        </section>
+
+        <!-- Journey & Achievements -->
+        <section class="timeline-section section-padding">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-subtitle">Highlights</span>
+                    <h2 class="section-title">Achievements & Journey</h2>
+                </div>
+                <div class="timeline-grid">
+                    <div class="timeline-group" data-aos="fade-right">
+                        <h3 class="timeline-cat-title"><i data-lucide="graduation-cap"></i> Education</h3>
+                        <div class="timeline">
+                            <div class="timeline-item glass">
+                                <span class="time-period">2024 - 2026</span>
+                                <h4 class="title">Master of Computer Applications (MCA)</h4>
+                                <p class="institution">APJ Abdul Kalam Technological University (KTU)</p>
+                                <p class="timeline-text">Specialized in software development, algorithm design, and
+                                    modern database management.</p>
+                            </div>
+                            <div class="timeline-item glass">
+                                <span class="time-period">2021 - 2024</span>
+                                <h4 class="title">Batchelor of Computer Applications (BCA)</h4>
+                                <p class="institution">Mahatma Gandhi University (MGU)</p>
+                                <p class="timeline-text">Specialized in software development, algorithm design, and
+                                    modern database management.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-group" data-aos="fade-left">
+                        <h3 class="timeline-cat-title"><i data-lucide="award"></i> Key Strengths</h3>
+                        <div class="timeline">
+                            <div class="timeline-item glass">
+                                <h4 class="title">Quick Learner & Adaptable</h4>
+                                <p class="timeline-text">Successfully mastered Django and AI integration within a short
+                                    period for academic projects.</p>
+                            </div>
+                            <div class="timeline-item glass">
+                                <h4 class="title">Strong Debugging Skills</h4>
+                                <p class="timeline-text">Proven ability to resolve complex backend issues and optimize
+                                    SQL queries for performance.</p>
+                            </div>
+                            <div class="timeline-item glass">
+                                <h4 class="title">Team Collaboration</h4>
+                                <p class="timeline-text">Experienced in working with diverse teams during academic
+                                    seminars and project developments.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section section-padding">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-subtitle">Reach Out</span>
+                    <h2 class="section-title">Contact Me</h2>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-info" data-aos="fade-right">
+                        <div class="contact-card glass">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <img src="email-icon.png" alt="Email Icon" class="contact-img">
+                                </div>
+                                <div>
+                                    <h4>Email</h4>
+                                    <p><a href="mailto:naveenvadakkedathu@gmail.com"
+                                            class="contact-link">naveenvadakkedathu@gmail.com</a></p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <img src="phone-icon.png" alt="Phone Icon" class="contact-img">
+                                </div>
+                                <div>
+                                    <h4>Phone</h4>
+                                    <p><a href="tel:+919605464251" class="contact-link">+91 9605464251</a></p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <img src="linkedin-logo.png" alt="LinkedIn Logo" class="contact-img">
+                                </div>
+                                <div>
+                                    <h4>LinkedIn</h4>
+                                    <p><a href="https://www.linkedin.com/in/naveen-philip-shinu-a4860a3a5"
+                                            target="_blank" class="contact-link">naveen-philip-shinu-a4860a3a5/</a></p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub Logo"
+                                        class="contact-img">
+                                </div>
+                                <div>
+                                    <h4>GitHub</h4>
+                                    <p><a href="https://github.com/Naveenvadakkedath" target="_blank"
+                                            class="contact-link">Naveenvadakkedath</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="social-btn glass"><i data-lucide="linkedin"></i></a>
+                            <a href="#" class="social-btn glass"><i data-lucide="github"></i></a>
+                            <a href="#" class="social-btn glass"><i data-lucide="twitter"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-form-wrapper" data-aos="fade-left">
+                        <form action="#" class="contact-form glass">
+                            <div class="form-group">
+                                <input type="text" placeholder="Full Name" required class="form-input">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" placeholder="Email Address" required class="form-input">
+                            </div>
+                            <div class="form-group">
+                                <textarea placeholder="Your Message" rows="5" required class="form-input"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">Send Message <i
+                                    data-lucide="send"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="quote">"Building the future, one line of code at a time."</p>
+                <div class="footer-bottom">
+                    <p>&copy; 2026 Naveen. All rights reserved.</p>
+                    <p>MCA Graduate | Python Developer</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <script src="script.js"></script>
+    <script>
+        // Init Lucide
+        lucide.createIcons();
+        // Init AOS
+        AOS.init({
+            duration: 1000,
+            once: true,
+            easing: 'ease-out-cubic'
+        });
+    </script>
+</body>
+
+</html>
